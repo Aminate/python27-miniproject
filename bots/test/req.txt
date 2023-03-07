@@ -1,2 +1,3 @@
+wheel
 pytelegrambotapi
 python-decouple

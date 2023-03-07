@@ -2,7 +2,6 @@ import telebot
 from decouple import config
 
 
-
 token = config('TOKEN')
 #стикеры
 yes_sticker = 'CAACAgIAAxkBAAEIBW5kBYbQ08iWUanhn-Nvy59HyxAXfAACEwADwDZPE6qzh_d_OMqlLgQ'

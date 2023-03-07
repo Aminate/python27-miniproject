@@ -2,7 +2,6 @@ import telebot
 from decouple import config
 
 
-
 token = config('TOKEN')
 #стикеры
 yes_sticker = 'CAACAgIAAxkBAAEIBW5kBYbQ08iWUanhn-Nvy59HyxAXfAACEwADwDZPE6qzh_d_OMqlLgQ'
@@ -10,7 +9,7 @@ no_sticker = 'CAACAgIAAxkBAAEIBXxkBYbdwMjR9yGSlRxfm4jvxntX2wACDgADwDZPEyNXFESHbt
 
 #клавиатура под сообщением
 
-keyboard= telebot.types.InlineKeyboardMarkup()    #эти кнопки за нас не пишут
+keyboard = telebot.types.InlineKeyboardMarkup()    #эти кнопки за нас не пишут
 b1 = telebot.types.InlineKeyboardButton('ДА', callback_data='yes')
 b2 =telebot.types.InlineKeyboardButton('Нет', callback_data='no')
 keyboard.add(b1,b2)
